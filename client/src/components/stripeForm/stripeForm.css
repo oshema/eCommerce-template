@@ -1,0 +1,37 @@
+.cardForm__Title{
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.cardForm{
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.cardForm__button{
+        width: 120px;
+        height: 62px;
+        margin-top: 10px;
+        border: 1px solid black;
+        padding: 0;
+        font: inherit;
+        font-size: 27px;
+        font-variant-caps: small-caps;
+        font-weight: 500;
+        cursor: pointer;
+        text-decoration: none;
+        border-radius: 4%;
+        font-family: 'Bai Jamjuree', sans-serif;
+        background-color: black;
+        color: white;
+        line-height: 58px;
+}
+
+.cardForm__button--home{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 5px;
+}

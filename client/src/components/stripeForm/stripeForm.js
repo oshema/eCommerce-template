@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import axios from "axios";
 import { useSelector } from "react-redux";
+import { Link } from 'react-router-dom'
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
+import './stripeForm.css';
 
 const CARD_OPTIONS = {
     iconStyle: "solid",
@@ -67,18 +69,26 @@ function StripeForm() {
     return (
         <>
             {!success ?
-                <form onSubmit={hundleSubmit}>
-                    <fieldset>
-                        <div>
-                            <CardElement options={CARD_OPTIONS} />
-                        </div>
-                    </fieldset>
-                    <button>Pay</button>
-                </form>
+                <>
+                    <div className="cardForm__Title">
+                        To complete your purchase, please enter your credit card details.
+                    </div>
+                    <form onSubmit={hundleSubmit}>
+                        <fieldset className="cardForm">
+                            <div >
+                                <CardElement options={CARD_OPTIONS} />
+                            </div>
+                        </fieldset>
+                        <button className="cardForm__button">pay</button>
+                    </form>
+                </>
                 :
-                <div>
-                    return finish
-        </div>
+                <>
+                    <div className="cardForm__Title">
+                        THANK YOU FOR YOUR PURCHASE.
+                    </div>
+                    <Link className="cardForm__button cardForm__button--home" to="/">return to homepage</Link>
+                </>
             }
 
         </>
