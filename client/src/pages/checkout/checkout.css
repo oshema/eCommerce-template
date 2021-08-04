@@ -1,0 +1,114 @@
+.checkout{
+    display: flex;
+}
+
+.checkout__form{
+    width: 57%;
+    height: 100vh;
+    padding-top: 60px;
+}
+
+.checkout__logo{
+    width: 182px;
+    height: 54px;
+}
+
+.checkout__navigation{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: green;
+}
+
+.checkout__form__wrapper{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 60px;
+}
+
+.checkout__form__title{
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.checkout__inputWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout__action__wrapper{
+    display: flex;
+    margin-top: 20px;
+}
+
+.checkout__backButton{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+	color: black;
+	border: 1px solid black;
+	padding: 0;
+	font: inherit;
+    font-size: 19px;
+    font-variant-caps: small-caps;
+    font-weight: 500;
+	cursor: pointer;
+    text-decoration: none;
+    border-radius: 4%;
+    margin-right: 7px;
+    font-family: 'Bai Jamjuree', sans-serif;  
+    line-height: 45px;
+    text-align: center;
+}
+
+.checkout__paymentButton{
+    width: 120px;
+    height: 52px;
+	color: black;
+	border: 1px solid black;
+	padding: 0;
+	font: inherit;
+    font-size: 19px;
+    font-variant-caps: small-caps;
+    font-weight: 500;
+	cursor: pointer;
+    text-decoration: none;
+    border-radius: 4%;
+    margin-right: 7px;
+    font-family: 'Bai Jamjuree', sans-serif;  
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+.errMsg{
+    color: rgb(238, 71, 71);
+    margin-top: 20px;
+}
+
+
+.checkout__info{
+    width: 42%;
+    height: 100vh;
+    background-color: #fafafa;
+    border-left: 1px solid rgb(226, 225, 225);
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 140px;
+}
+
+.checkout__info__raw{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkout__subtotal{
+    font-weight: 500;
+    font-size: 20px;
+}
+

@@ -1,0 +1,119 @@
+[
+    {
+        "id": "1111",
+        "name": "blue wave",
+        "price": "220",
+        "img": "/../../images/productOne.jpg",
+        "altPics": [
+            "/../../images/productOneAlt.jpg",
+            "/../../images/productOneAltTwo.jpg",
+            "/../../images/productOneAltThree.jpg",
+            "/../../images/productOneAltFour.jpg",
+            "/../../images/productOneAltFive.jpg"
+        ]
+    },
+    {
+        "id": "2222",
+        "name": "lucy",
+        "price": "235",
+        "img": "/../../images/productTwo.jpg",
+        "altPics": [
+            "/../../images/productOneAlt.jpg",
+            "/../../images/productOneAltTwo.jpg",
+            "/../../images/productOneAltThree.jpg",
+            "/../../images/productOneAltFour.jpg",
+            "/../../images/productOneAltFive.jpg"
+        ]
+    },
+    {
+        "id": "3333",
+        "name": "wave storm",
+        "price": "290",
+        "img": "/../../images/productThree.jpg",
+        "altPics": [
+            "/../../images/productOneAlt.jpg",
+            "/../../images/productOneAltTwo.jpg",
+            "/../../images/productOneAltThree.jpg",
+            "/../../images/productOneAltFour.jpg",
+            "/../../images/productOneAltFive.jpg"
+        ]
+    },
+    {
+        "id": "4444",
+        "name": "mondrian",
+        "price": "140",
+        "img": "/../../images/productFour.jpg",
+        "altPics": [
+            "/../../images/productOneAlt.jpg",
+            "/../../images/productOneAltTwo.jpg",
+            "/../../images/productOneAltThree.jpg",
+            "/../../images/productOneAltFour.jpg",
+            "/../../images/productOneAltFive.jpg"
+        ]
+    },
+    {
+        "id": "5555",
+        "name": "sahara",
+        "price": "140",
+        "img": "/../../images/productFive.jpg",
+        "altPics": [
+            "/../../images/productOneAlt.jpg",
+            "/../../images/productOneAltTwo.jpg",
+            "/../../images/productOneAltThree.jpg",
+            "/../../images/productOneAltFour.jpg",
+            "/../../images/productOneAltFive.jpg"
+        ]
+    },
+    {
+        "id": "6666",
+        "name": "magenta",
+        "price": "140",
+        "img": "/../../images/productSix.jpg",
+        "altPics": [
+            "/../../images/productOneAlt.jpg",
+            "/../../images/productOneAltTwo.jpg",
+            "/../../images/productOneAltThree.jpg",
+            "/../../images/productOneAltFour.jpg",
+            "/../../images/productOneAltFive.jpg"
+        ]
+    },
+    {
+        "id": "7777",
+        "name": "surf wax",
+        "price": "10",
+        "img": "/../../images/productSeven.jpg",
+        "altPics": [
+            "/../../images/productOneAlt.jpg",
+            "/../../images/productOneAltTwo.jpg",
+            "/../../images/productOneAltThree.jpg",
+            "/../../images/productOneAltFour.jpg",
+            "/../../images/productOneAltFive.jpg"
+        ]
+    },
+    {
+        "id": "8888",
+        "name": "surf hat",
+        "price": "35",
+        "img": "/../../images/productEight.jpeg",
+        "altPics": [
+            "/../../images/productOneAlt.jpg",
+            "/../../images/productOneAltTwo.jpg",
+            "/../../images/productOneAltThree.jpg",
+            "/../../images/productOneAltFour.jpg",
+            "/../../images/productOneAltFive.jpg"
+        ]
+    },
+    {
+        "id": "9999",
+        "name": "lish",
+        "price": "20",
+        "img": "/../../images/productNine.jpeg",
+        "altPics": [
+            "/../../images/productOneAlt.jpg",
+            "/../../images/productOneAltTwo.jpg",
+            "/../../images/productOneAltThree.jpg",
+            "/../../images/productOneAltFour.jpg",
+            "/../../images/productOneAltFive.jpg"
+        ]
+    }
+]

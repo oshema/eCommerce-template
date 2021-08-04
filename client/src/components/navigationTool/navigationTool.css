@@ -1,0 +1,19 @@
+.navigationTool{
+    display: flex;
+    font-size: 13px;
+}
+
+.--center{
+    justify-content: center;
+}
+
+.navigationTool__linkStyleRemove{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    text-decoration: none;
+}

@@ -1,0 +1,7 @@
+.home__img{
+    width: 970px;
+    height: 363px;
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }

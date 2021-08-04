@@ -1,0 +1,47 @@
+
+.about{
+  width: 970px;
+  margin-top: 85px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+}
+
+.about__img{
+    width: 462px;
+    height: 476px;
+}
+
+.about__script{
+    width: 475px;
+    height: 476px;
+    font-size: 19px;
+    margin-top: 1px;
+}
+
+.about__title{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.about__text{
+    display: block;
+    margin-top: 14px;
+}
+
+.about__productsLink{
+    background: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 60px;
+    font: inherit;
+    font-weight: 100;
+    font-size: 17px;
+	border: none;
+    padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}

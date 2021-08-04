@@ -1,0 +1,33 @@
+.products{
+    width: 990px;
+    margin-top: 70px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-family: 'K2D', sans-serif;
+    font-variant-caps: small-caps;
+  }
+  
+.products__title{
+    font-size: 23px;
+    margin-top: 20px;
+    font-variant-caps: small-caps;
+    text-align: left;
+}
+  
+.products_description{
+    font-variant: normal;
+    margin-top: 20px;
+    margin-bottom: 55px;
+    text-align: left;
+  }
+
+.products__raw{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.products__raw--gap{
+    margin-top: 40px;
+}
+
+

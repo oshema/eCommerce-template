@@ -1,0 +1,29 @@
+.checkoutItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.checkoutItem__leftWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.checkoutItem__img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgb(226, 225, 225);
+    border-radius: 10%;
+}
+
+.checkoutItem__quantity{
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.checkoutItem__name{
+    margin-left: 10px;
+    font-variant-caps: small-caps;
+    font-size: 20px;
+}

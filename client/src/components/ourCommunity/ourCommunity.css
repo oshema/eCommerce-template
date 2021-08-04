@@ -1,0 +1,70 @@
+.community{
+    margin-top: 70px;
+    width: 970px;
+    height: 700px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.community__reviews{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 33px;
+    width: 370px;
+    height: 200px;
+    opacity: 1;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(63, 62, 62);
+    font-style: oblique;
+}
+
+.community__quote{
+    margin-left: 6px;
+}
+
+.community__name{
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.community__imgBG{
+    margin-top: 50px;
+    width: 970px;
+    height: 570px;
+}
+
+.community__imageOne{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    right: 10px;
+    top: 100px;
+    border-radius: 2%;
+}
+
+.community__imageTwo{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(245, 179, 215);
+    right: 220px;
+    top: 230px;
+    border-radius: 2%;
+}
+
+.community__imageThree{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(179, 245, 188);
+    right: 90px;
+    top: 400px;
+    border-radius: 2%;
+}
+
+
+
+

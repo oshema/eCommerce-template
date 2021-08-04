@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend::wght@100;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap');
+
+.app {
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 200;
+}
+
+.app__logo{
+  width: 182px;
+  height: 54px;
+  margin-top: 21px;
+}

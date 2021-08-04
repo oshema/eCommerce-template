@@ -1,0 +1,19 @@
+
+.mainProducts{
+  width: 970px;
+  height: 800px;
+  margin-top: 70px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-family: 'K2D', sans-serif;
+  font-variant-caps: small-caps;
+}
+
+.mainProducts__raw{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mainProducts__raw--gap{
+    margin-top: 40px;
+}
