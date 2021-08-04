@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './cart.css';
 import allProducts from '../../products.json';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import NavigationTool from '../../components/navigationTool/navigationTool';
 import { emptyCart } from '../../redux/actions/checkoutActions';

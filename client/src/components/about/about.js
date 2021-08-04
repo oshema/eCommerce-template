@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css';
+import { Link } from 'react-router-dom';
 
 function About() {
 
@@ -13,7 +14,7 @@ function About() {
                 <span className="about__text">The left picture is an example image. You can choose any photo that fits the needs for your landing page.</span>
                 <span className="about__text">The left picture is an example image. You can choose any photo that fits the needs for your landing page.</span>
                 <span className="about__text">The link below will lead you to any page you will choose. Can be a link to all of your products or overall description.</span>
-                <button className="about__productsLink">All Products</button>
+                <Link className="about__productsLink" to="/products">All Products</Link>
             </div>
         </div>
     )
