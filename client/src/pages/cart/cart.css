@@ -68,6 +68,10 @@
     margin-top: 20px;
 }
 
+.cart__paypal{
+   height: 120px;
+}
+
 .cart__action{
     width: 120px;
     height: 62px;

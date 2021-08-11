@@ -4,7 +4,7 @@ import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 function Paypal({ totalOrderPrice }) {
 
     return (
-        <>
+        <div>
             <hr />
             <PayPalScriptProvider options={{ "client-id": "AW9QmfWpchI1m7Kb9RZ1_4ytB85-q4meBZdGlUeNRrJ6HyMpDg-ENKHfJWxE-Li4PLdRVPRAsY5Yy1Aa" }}>
                 <PayPalButtons
@@ -22,7 +22,7 @@ function Paypal({ totalOrderPrice }) {
                     forceReRender={[totalOrderPrice]}
                 />
             </PayPalScriptProvider>
-        </>
+        </div>
     )
 }
 

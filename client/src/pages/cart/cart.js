@@ -78,7 +78,9 @@ function Cart() {
                                 <Link className="cart__action cart__action--link backToProductsButton" to='/products'>back to products</Link>
                                 <Link className="cart__action cart__action--link cart__action--blackTheme" to='/checkout'>checkout</Link>
                             </div>
-                            <Paypal totalOrderPrice={totalOrderPrice} />
+                            <div className="cart__paypal">
+                                <Paypal totalOrderPrice={totalOrderPrice} />
+                            </div>
                         </div>
                         <TextField
                             label="Add notes"

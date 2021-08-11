@@ -27,3 +27,17 @@
   outline: inherit;
   text-decoration: none;
 }
+
+.manu--bold{
+  font-weight: 400;
+  padding: 3px;
+  transition: 0.4s;
+}
+
+.manu--bold:hover{
+  margin-right: 5px;
+  margin-bottom: 5px;
+  -webkit-box-shadow: 5px 5px 3px -3px black;
+  -moz-box-shadow: 5px 5px 3px -3px black;
+  box-shadow: 5px 5px 3px -3px black;
+}
